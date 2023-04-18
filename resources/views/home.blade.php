@@ -11,6 +11,19 @@
   grid-column-end: span 4;
 }
 </style>
+
+    <div class="Polaris-Tabs__Panel" id="all-customers-fitted-content-2" role="tabpanel" aria-labelledby="all-customers-fitted-2" tabindex="-1">
+      <div class="Polaris-LegacyCard__Section">
+        <div class="Polaris-LegacyCard__SectionHeader">
+       
+        </div>
+    
+      </div>
+    </div>
+    <div class="Polaris-Tabs__Panel Polaris-Tabs__Panel--hidden" id="accepts-marketing-fitted-Ccontent-2" role="tabpanel" aria-labelledby="accepts-marketing-fitted-2" tabindex="-1">
+    </div>
+  </div>
+</div>
 <main class="Polaris-Frame__Main" id="AppFrameMain" data-has-global-ribbon="false">
           <div class="Polaris-Frame__Content">
             <div class="Polaris-Page">
@@ -18,11 +31,13 @@
                 <div class="Polaris-Page-Header__Row">
                   <div class="Polaris-Page-Header__TitleWrapper">
                     <h1 class="Polaris-Header-Title">Welcome to Junip, Salal!</h1>
+                    
                   </div>
                 </div>
               </div>
               <!-- class="Polaris-Page Polaris-Page--fullWidth" -->
               <div >
+                
                 <!--card start -->
   <div class="Polaris-Page__Content">
     <div class="Polaris-Grid">

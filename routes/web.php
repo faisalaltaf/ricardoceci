@@ -15,6 +15,7 @@ use App\Http\Controllers\WelcomeController;
 */
 Route::middleware(['verify.shopify'])->group(function () { //home route 
     Route::get('/',[WelcomeController::class, 'index'])->name('home');
+    Route::get('/addproduct',[WelcomeController::class, 'addProduct'])->name('addproduct');
 });
 Route::get('/login', function () { //redirect authenticate login route 
     if(Auth::user()) {     

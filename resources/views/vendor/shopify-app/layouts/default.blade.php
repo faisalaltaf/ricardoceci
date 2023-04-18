@@ -10,8 +10,17 @@
         @yield('styles')
     </head>
     <body>
-        <div class="app-wrapper">
-            <div class="app-content">
+        <style>
+            @media (min-width: 48em){
+.Polaris-Frame__TopBar {
+    left: var(--pc-frame-offset);
+    width: 100%;
+}}
+        </style>
+    @include('vendor.shopify-app.layouts.topbar')
+
+        <div class="app-wrapper"> 
+            <div class="app-content"> 
                 <main role="main" class="container-fluid">
                     @yield('content')
                 </main>
